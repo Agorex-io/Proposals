@@ -171,19 +171,6 @@ AIP editors don't pass judgment on AIPs. They merely do the administrative & edi
 This document was derived heavily from [Ethereum's EIP 1] which was derived from [Bitcoin's BIP-0001] written by Amir Taaki which in turn was derived from [Python's PEP-0001]. In many places text was simply copied and modified. Although the EIP-1 text was written by Martin Becze and Hudson Jameson, the PEP-0001 text was written by Barry Warsaw, Jeremy Hylton, and David Goodger, they are not responsible for its use in the Agorex Improvement Process, and should not be bothered with questions specific to Agorex or the AIP. Please direct all comments to the AIP editors.
 
 
-# Assumptions #
-- Assumes 2FA is required by the GitHub org and all directors on the Board of Directors are using 2FA when submitting PRs, commits, and reviewing proposals.
-- Roles:
-  - ONLY the [@Agorex-io/board-of-directors] can approve proposals that move beyond a PR and end up merged to the repository. 
-  - [@Agorex-io/proposal-editors] cannot approve, but can facilitate the process and guide champions and authors. They can also edit PRs in progress to help get the preamble and formatting correct according to the workflow. 
-- Assumes [required reviews have been set up **to include repository admins**](https://help.github.com/articles/enabling-required-reviews-for-pull-requests) option is on.
-- Assumes [Dismiss stale pull request approvals when new commits are pushed](https://help.github.com/articles/enabling-required-reviews-for-pull-requests/) option is on.
-- Assumes that **Board of Directors** is how we refer to the governing body for the community.
-  - I'm using "Board of Directors" as we have referred to it this way most often (and in AIP-2 issue discussions).
-- Assumes the target size for the Board of Directors is 9.
-- Note that the EIP process in EIP-1 is written focused on proposals for features and feels retrofitted for process and informational proposals. I am trying to make this more designed around community/structural proposals first, and expect we'll add a "feature proposal" type later. I think this will be better basis for the process in our case (which is decidedly different circumstance than Ethereum which also maintains a protocol with many clients & implementations).
-
-
 # Open Issues / TODO #
 - [x] ~~Near the mention of "We use GitHub's [required reviews for pull requests]" above, but that is for every review/pull of the PR. PRs can be merged in a Draft status without being accepted. More final status (Accepted, Deferred, Rejected, and Replaced, Final) require more careful reviews. That needs clarified. Or we could make a different directory for Draft proposals and Accepted/Finalized/Active/Replaced proposals to keep the review/approval requirement lower for Draft proposals.~~
     - It can be difficult to easily preserve and view file history across renames, so I think we just require n of M board approvals for ALL pulls and make sure that they are trained to quite liberally merge draft proposals and very judiciously merge proposals with any other "final" status. This also keeps the URL to an AIP intact regardless of status.
