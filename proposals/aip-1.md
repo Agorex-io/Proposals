@@ -153,7 +153,7 @@ For each new AIP that comes in, an editor does the following:
 
 - Read the AIP to check if it is ready: sound and complete. The ideas must technically make sense, even if they don't seem likely to be accepted.
 - The title should accurately describe the content.
-- Edit the AIP for language (spelling, grammar, sentence structure, etc.), markup (Github flavored Markdown).
+- Work with the author/champion to edit the AIP for language (spelling, grammar, sentence structure, etc.), markup (Github flavored Markdown).
 
 If the AIP isn't ready, an editor will send it back to the author for revision, with specific instructions.
 
@@ -173,11 +173,6 @@ This document was derived heavily from [Ethereum's EIP 1] which was derived from
 Thanks to [Jonathon Dunford], [Rohat Sahin], and other community members for their feedback and suggestions in the discussions on this proposal.
 
 
-# Future Consideration #
-- Use PGP-signed commits?
-
-
-# References #
   [@Agorex-io/board-of-directors]: https://github.com/orgs/Agorex-io/teams/board-of-directors
   [Agorex Board of Directors]: https://github.com/orgs/Agorex-io/teams/board-of-directors
   [@Agorex-io/proposal-editors]: https://github.com/orgs/Agorex-io/teams/proposal-editors
