@@ -82,9 +82,7 @@ Each AIP should have the following parts:
 
 - Abstract - a short (~200 word) description of the technical issue being addressed.
 
-- Copyright/public domain - Each AIP must either be explicitly labeled as placed in the public domain (see this AIP as an example).
-
-- Motivation - The motivation should motivated the proposal including a clear explanation of the problem that the AIP solves and why a current process or (lack thereof) is inadequate to address the problem. AIP submissions without sufficient motivation may be rejected outright. 
+- Motivation - The motivation should explain what motivated the proposal, including a clear explanation of the problem that the AIP solves, and why a current process or (lack thereof) is inadequate to address the problem. AIP submissions without sufficient motivation may be rejected outright. 
 
 - Rationale - The rationale fleshes out the proposal by describing why particular decisions were made. It should describe alternatives that were considered and reference any related works. The rationale should provide evidence of consensus within the community and discuss important objections or concerns raised during discussion.
 
@@ -162,9 +160,8 @@ If the AIP isn't ready, an editor will send it back to the author for revision, 
 Once the AIP is ready for the repository, a AIP editor will:
 
 - Assign an AIP number (generally the PR number or, if preferred by the author, the Issue number if there was discussion in [the Issues section of this repository] about this AIP).
-
-- Accept the corresponding pull request (pending approved reviews from the Board as described in _Proposal Workflow_ above).
-
+- Recommend to the [Agorex Board of Directors] that they review and approve the corresponding pull request as described in _Proposal Workflow_ above.
+- Merge the pull request to master upon approval of the Board.
 - Send a message back to the AIP author with the next step (tagging them in an Issue comment or PR is sufficient).
 
 AIP editors don't pass judgment on AIPs. They merely do the administrative & editorial part (which is generally a low volume task).
