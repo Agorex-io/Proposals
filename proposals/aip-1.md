@@ -167,8 +167,10 @@ Once the AIP is ready for the repository, a AIP editor will:
 AIP editors don't pass judgment on AIPs. They merely do the administrative & editorial part (which is generally a low volume task).
 
 
-# History #
+# Acknowledgements #
 This document was derived heavily from [Ethereum's EIP 1] which was derived from [Bitcoin's BIP-0001] written by Amir Taaki which in turn was derived from [Python's PEP-0001]. In many places text was simply copied and modified. Although the EIP-1 text was written by Martin Becze and Hudson Jameson, the PEP-0001 text was written by Barry Warsaw, Jeremy Hylton, and David Goodger, they are not responsible for its use in the Agorex Improvement Process, and should not be bothered with questions specific to Agorex or the AIP. Please direct all comments to the AIP editors.
+
+Thanks to [Jonathon Dunford], [Rohat Sahin], and other community members for their feedback and suggestions in the discussions on this proposal.
 
 
 # Future Consideration #
@@ -192,7 +194,8 @@ This document was derived heavily from [Ethereum's EIP 1] which was derived from
   [markdown]: https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
   [Bitcoin's BIP-0001]: https://github.com/bitcoin/bips
   [Python's PEP-0001]: https://www.python.org/dev/peps/
-
+  [Jonathon Dunford]: https://github.com/JonathonDunford
+  [Rohat Sahin]: https://github.com/rowmagnon
 
 # Copyright #
 Copyright and related rights waived via [CC0](https://creativecommons.org/publicdomain/zero/1.0/).
