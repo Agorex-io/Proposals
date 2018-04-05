@@ -60,11 +60,11 @@ AIPs can also be superseded by a different AIP, rendering the original obsolete.
 ## Proposal Statuses ##
 The possible paths of the status of AIPs are as follows:
 
-  Draft -> Accepted -> Final
-  Draft -> Withdrawn
-  Draft -> Rejected
-  Draft -> Deferred
-  Final -> Replaced
+  Draft -> Accepted -> Final  
+  Draft -> Withdrawn  
+  Draft -> Rejected  
+  Draft -> Deferred  
+  Final -> Replaced  
 
 Unlike the EIP process, Informational and Process AIPs do not have the status "Active" and will have the status Final when they are accepted and the board is expected to execute the proposals on behalf of the community. 
 
