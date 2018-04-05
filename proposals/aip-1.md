@@ -171,21 +171,6 @@ AIP editors don't pass judgment on AIPs. They merely do the administrative & edi
 This document was derived heavily from [Ethereum's EIP 1] which was derived from [Bitcoin's BIP-0001] written by Amir Taaki which in turn was derived from [Python's PEP-0001]. In many places text was simply copied and modified. Although the EIP-1 text was written by Martin Becze and Hudson Jameson, the PEP-0001 text was written by Barry Warsaw, Jeremy Hylton, and David Goodger, they are not responsible for its use in the Agorex Improvement Process, and should not be bothered with questions specific to Agorex or the AIP. Please direct all comments to the AIP editors.
 
 
-# Open Issues / TODO #
-- [x] ~~Near the mention of "We use GitHub's [required reviews for pull requests]" above, but that is for every review/pull of the PR. PRs can be merged in a Draft status without being accepted. More final status (Accepted, Deferred, Rejected, and Replaced, Final) require more careful reviews. That needs clarified. Or we could make a different directory for Draft proposals and Accepted/Finalized/Active/Replaced proposals to keep the review/approval requirement lower for Draft proposals.~~
-    - It can be difficult to easily preserve and view file history across renames, so I think we just require n of M board approvals for ALL pulls and make sure that they are trained to quite liberally merge draft proposals and very judiciously merge proposals with any other "final" status. This also keeps the URL to an AIP intact regardless of status.
-- [ ] Set up the [@Agorex-io/proposal-editors] team.
-- [ ] Set up the [@Agorex-io/board-of-directors] team.
-  - Initially proposal-editors and board-of-directors are likely to be the same members. Long term this may scale better to keep them separate.
-- [ ] README.md
-- [ ] add PULL_REQUEST_TEMPLATE.md
-- [ ] Document and link to "Agorex values" above.
-- [x] Double check by searching for PEP, EIP and Ethereum in doc content.
-- [x] Double check by searching for Meta -> Proposal in doc content.
-- Low priority:
-  - [ ] Setup github pages on the repo. Necessary?
-
-
 # Future Consideration #
 - Use PGP-signed commits?
 
